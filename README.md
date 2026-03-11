@@ -2,6 +2,12 @@
 
 An Android home screen widget that shows a compact row of app icons with notification counts, sorted by the most recent notification.
 
+## Support
+
+If you find the project useful and want to support development, you can buy me a coffee here:
+
+[Ko-fi](https://ko-fi.com/astroboii47)
+
 ## What It Does
 
 - Shows your most recent apps with active notifications in a single row widget
