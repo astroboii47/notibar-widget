@@ -6,7 +6,7 @@ An Android home screen widget that shows a compact row of app icons with notific
 
 If you find the project useful and want to support development, you can buy me a coffee here:
 
-[Ko-fi](https://ko-fi.com/astroboii47)
+[![Ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/astroboii47)
 
 ## What It Does
 
