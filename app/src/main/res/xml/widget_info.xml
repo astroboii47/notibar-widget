@@ -1,0 +1,9 @@
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:minWidth="220dp"
+    android:minHeight="48dp"
+    android:minResizeWidth="220dp"
+    android:minResizeHeight="48dp"
+    android:updatePeriodMillis="0"
+    android:initialLayout="@layout/widget_notification_row"
+    android:resizeMode="horizontal|vertical"
+    android:widgetCategory="home_screen" />

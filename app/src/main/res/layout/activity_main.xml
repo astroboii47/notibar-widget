@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Notification Row Widget"
+        android:textSize="18sp"
+        android:paddingBottom="12dp"/>
+
+    <Button
+        android:id="@+id/btn_notification_access"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Open Notification Access Settings" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="12dp" />
+
+    <Button
+        android:id="@+id/btn_widget_settings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Widget display settings" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="12dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tip: Add the widget to your home screen, then adjust icon count and badge size in Widget display settings."
+        android:textSize="14sp" />
+
+</LinearLayout>

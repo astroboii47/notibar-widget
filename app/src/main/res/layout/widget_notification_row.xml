@@ -1,0 +1,406 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center_vertical|center_horizontal"
+    android:padding="2dp">
+
+    <!-- Slot 0 -->
+    <!-- Slot 0 -->
+    <LinearLayout
+        android:id="@+id/item0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp"
+        android:layout_margin="1dp">
+
+        <TextView
+            android:id="@+id/badge0"
+            android:layout_width="wrap_content"
+            android:minWidth="18dp"
+            android:paddingLeft="2dp"
+            android:paddingRight="2dp"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFFFF"
+            android:textSize="11sp"
+            android:gravity="center"
+            android:visibility="gone" />
+
+        
+        <FrameLayout
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="2dp">
+
+            <ImageView
+                android:id="@+id/icon0"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:scaleType="centerCrop" 
+                android:layout_gravity="center" />
+
+            <ImageView
+                android:id="@+id/overlay0"
+                android:layout_width="10dp"                android:layout_height="10dp"
+                android:layout_gravity="top|end"
+                android:layout_marginEnd="-1dp"
+                android:layout_marginTop="-1dp"
+                android:src="@drawable/blackberry_overlay"
+                android:visibility="gone" />
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <!-- Slot 1 -->
+    <LinearLayout
+        android:id="@+id/item1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp"
+        android:layout_margin="1dp">
+
+        <TextView
+            android:id="@+id/badge1"
+            android:layout_width="wrap_content"
+            android:minWidth="18dp"
+            android:paddingLeft="2dp"
+            android:paddingRight="2dp"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFFFF"
+            android:textSize="11sp"
+            android:gravity="center"
+            android:visibility="gone" />
+
+        
+        <FrameLayout
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="2dp">
+
+            <ImageView
+                android:id="@+id/icon1"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:scaleType="centerCrop" 
+                android:layout_gravity="center" />
+
+            <ImageView
+                android:id="@+id/overlay1"
+                android:layout_width="10dp"                android:layout_height="10dp"
+                android:layout_gravity="top|end"
+                android:layout_marginEnd="-1dp"
+                android:layout_marginTop="-1dp"
+                android:src="@drawable/blackberry_overlay"
+                android:visibility="gone" />
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <!-- Slot 2 -->
+    <LinearLayout
+        android:id="@+id/item2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp"
+        android:layout_margin="1dp">
+
+        <TextView
+            android:id="@+id/badge2"
+            android:layout_width="wrap_content"
+            android:minWidth="18dp"
+            android:paddingLeft="2dp"
+            android:paddingRight="2dp"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFFFF"
+            android:textSize="11sp"
+            android:gravity="center"
+            android:visibility="gone" />
+
+        
+        <FrameLayout
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="2dp">
+
+            <ImageView
+                android:id="@+id/icon2"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:scaleType="centerCrop" 
+                android:layout_gravity="center" />
+
+            <ImageView
+                android:id="@+id/overlay2"
+                android:layout_width="10dp"                android:layout_height="10dp"
+                android:layout_gravity="top|end"
+                android:layout_marginEnd="-1dp"
+                android:layout_marginTop="-1dp"
+                android:src="@drawable/blackberry_overlay"
+                android:visibility="gone" />
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <!-- Slot 3 -->
+    <LinearLayout
+        android:id="@+id/item3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp"
+        android:layout_margin="1dp">
+
+        <TextView
+            android:id="@+id/badge3"
+            android:layout_width="wrap_content"
+            android:minWidth="18dp"
+            android:paddingLeft="2dp"
+            android:paddingRight="2dp"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFFFF"
+            android:textSize="11sp"
+            android:gravity="center"
+            android:visibility="gone" />
+
+        
+        <FrameLayout
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="2dp">
+
+            <ImageView
+                android:id="@+id/icon3"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:scaleType="centerCrop" 
+                android:layout_gravity="center" />
+
+            <ImageView
+                android:id="@+id/overlay3"
+                android:layout_width="10dp"                android:layout_height="10dp"
+                android:layout_gravity="top|end"
+                android:layout_marginEnd="-1dp"
+                android:layout_marginTop="-1dp"
+                android:src="@drawable/blackberry_overlay"
+                android:visibility="gone" />
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <!-- Slot 4 -->
+    <LinearLayout
+        android:id="@+id/item4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp"
+        android:layout_margin="1dp">
+
+        <TextView
+            android:id="@+id/badge4"
+            android:layout_width="wrap_content"
+            android:minWidth="18dp"
+            android:paddingLeft="2dp"
+            android:paddingRight="2dp"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFFFF"
+            android:textSize="11sp"
+            android:gravity="center"
+            android:visibility="gone" />
+
+        
+        <FrameLayout
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="2dp">
+
+            <ImageView
+                android:id="@+id/icon4"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:scaleType="centerCrop" 
+                android:layout_gravity="center" />
+
+            <ImageView
+                android:id="@+id/overlay4"
+                android:layout_width="10dp"                android:layout_height="10dp"
+                android:layout_gravity="top|end"
+                android:layout_marginEnd="-1dp"
+                android:layout_marginTop="-1dp"
+                android:src="@drawable/blackberry_overlay"
+                android:visibility="gone" />
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <!-- Slot 5 -->
+    <LinearLayout
+        android:id="@+id/item5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp"
+        android:layout_margin="1dp">
+
+        <TextView
+            android:id="@+id/badge5"
+            android:layout_width="wrap_content"
+            android:minWidth="18dp"
+            android:paddingLeft="2dp"
+            android:paddingRight="2dp"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFFFF"
+            android:textSize="11sp"
+            android:gravity="center"
+            android:visibility="gone" />
+
+        
+        <FrameLayout
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="2dp">
+
+            <ImageView
+                android:id="@+id/icon5"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:scaleType="centerCrop" 
+                android:layout_gravity="center" />
+
+            <ImageView
+                android:id="@+id/overlay5"
+                android:layout_width="10dp"                android:layout_height="10dp"
+                android:layout_gravity="top|end"
+                android:layout_marginEnd="-1dp"
+                android:layout_marginTop="-1dp"
+                android:src="@drawable/blackberry_overlay"
+                android:visibility="gone" />
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <!-- Slot 6 -->
+    <LinearLayout
+        android:id="@+id/item6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp"
+        android:layout_margin="1dp">
+
+        <TextView
+            android:id="@+id/badge6"
+            android:layout_width="wrap_content"
+            android:minWidth="18dp"
+            android:paddingLeft="2dp"
+            android:paddingRight="2dp"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFFFF"
+            android:textSize="11sp"
+            android:gravity="center"
+            android:visibility="gone" />
+
+        
+        <FrameLayout
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="2dp">
+
+            <ImageView
+                android:id="@+id/icon6"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:scaleType="centerCrop" 
+                android:layout_gravity="center" />
+
+            <ImageView
+                android:id="@+id/overlay6"
+                android:layout_width="10dp"                android:layout_height="10dp"
+                android:layout_gravity="top|end"
+                android:layout_marginEnd="-1dp"
+                android:layout_marginTop="-1dp"
+                android:src="@drawable/blackberry_overlay"
+                android:visibility="gone" />
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <!-- Slot 7 -->
+    <LinearLayout
+        android:id="@+id/item7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp"
+        android:layout_margin="1dp">
+
+        <TextView
+            android:id="@+id/badge7"
+            android:layout_width="wrap_content"
+            android:minWidth="18dp"
+            android:paddingLeft="2dp"
+            android:paddingRight="2dp"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFFFF"
+            android:textSize="11sp"
+            android:gravity="center"
+            android:visibility="gone" />
+
+        
+        <FrameLayout
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="2dp">
+
+            <ImageView
+                android:id="@+id/icon7"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:scaleType="centerCrop" 
+                android:layout_gravity="center" />
+
+            <ImageView
+                android:id="@+id/overlay7"
+                android:layout_width="10dp"                android:layout_height="10dp"
+                android:layout_gravity="top|end"
+                android:layout_marginEnd="-1dp"
+                android:layout_marginTop="-1dp"
+                android:src="@drawable/blackberry_overlay"
+                android:visibility="gone" />
+        </FrameLayout>
+
+    </LinearLayout>
+
+<!-- Extra indicator -->
+    <TextView
+        android:id="@+id/extra_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFFFF"
+        android:textSize="11sp"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        android:gravity="center"
+        android:layout_margin="1dp"
+        android:visibility="gone" />
+
+</LinearLayout>

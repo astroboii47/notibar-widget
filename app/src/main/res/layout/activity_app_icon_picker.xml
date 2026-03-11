@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/icon_preview"
+        android:layout_width="88dp"
+        android:layout_height="88dp"
+        android:layout_gravity="center_horizontal"
+        android:contentDescription="Selected app icon preview"
+        android:padding="8dp" />
+
+    <TextView
+        android:id="@+id/text_app_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textSize="18sp"
+        android:paddingTop="12dp" />
+
+    <TextView
+        android:id="@+id/text_app_subtitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textSize="12sp"
+        android:paddingTop="4dp" />
+
+    <TextView
+        android:id="@+id/text_icon_source"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:paddingTop="12dp"
+        android:paddingBottom="20dp" />
+
+    <Button
+        android:id="@+id/btn_use_app_icon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Use app icon" />
+
+    <Button
+        android:id="@+id/btn_use_pack_icon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Use icon pack icon" />
+
+    <Button
+        android:id="@+id/btn_choose_custom_icon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Choose custom image" />
+
+    <Button
+        android:id="@+id/btn_remove_custom_icon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Remove custom image" />
+
+</LinearLayout>

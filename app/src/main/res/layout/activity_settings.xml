@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Icons to show (before +X)"
+        android:textSize="16sp"
+        android:paddingBottom="6dp"/>
+
+    <Spinner
+        android:id="@+id/spinner_icon_count"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="16dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Badge font size"
+        android:textSize="16sp"
+        android:paddingBottom="6dp"/>
+
+    <Spinner
+        android:id="@+id/spinner_font_size"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="24dp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Overlay dot size"
+        android:textSize="16sp"
+        android:paddingBottom="6dp"/>
+
+    <Spinner
+        android:id="@+id/spinner_overlay_size"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="24dp"/>
+
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Included apps"
+    android:textSize="16sp"
+    android:paddingBottom="6dp"
+    android:paddingTop="4dp"/>
+
+<CheckBox
+    android:id="@+id/checkbox_filter"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Only show selected apps"
+    android:paddingBottom="8dp"/>
+
+<Button
+    android:id="@+id/btn_choose_apps"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Choose apps"
+    android:paddingBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/text_apps_summary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="All apps"
+        android:paddingBottom="24dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Icon overrides"
+        android:textSize="16sp"
+        android:paddingBottom="6dp" />
+
+    <Button
+        android:id="@+id/btn_choose_icon_pack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Choose icon pack" />
+
+    <TextView
+        android:id="@+id/text_icon_pack_summary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Icon pack: None"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Preview"
+        android:paddingBottom="6dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="24dp">
+
+        <ImageView
+            android:id="@+id/preview_icon0"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:contentDescription="Preview icon 1"
+            android:layout_marginEnd="8dp" />
+
+        <ImageView
+            android:id="@+id/preview_icon1"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:contentDescription="Preview icon 2"
+            android:layout_marginEnd="8dp" />
+
+        <ImageView
+            android:id="@+id/preview_icon2"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:contentDescription="Preview icon 3"
+            android:layout_marginEnd="8dp" />
+
+        <ImageView
+            android:id="@+id/preview_icon3"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:contentDescription="Preview icon 4" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save and refresh" />
+</LinearLayout>
