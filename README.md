@@ -78,9 +78,31 @@ app/build/outputs/apk/debug/app-debug.apk
 - Language: `Java 17`
 - Widget updates are driven by a `NotificationListenerService`
 
+## GitHub Actions Signing
+
+The repo includes a GitHub Actions workflow that:
+
+- builds a debug APK on pushes to `main`
+- builds a signed release APK on tags like `v1.0.1`
+- uploads the signed APK to the matching GitHub Release
+
+To enable signed release builds in GitHub, add these repository secrets:
+
+- `ANDROID_KEYSTORE_BASE64`
+- `ANDROID_KEYSTORE_PASSWORD`
+- `ANDROID_KEY_ALIAS`
+- `ANDROID_KEY_PASSWORD`
+
+Create the base64 value from your keystore on your Mac:
+
+```bash
+base64 -i notibar-release.keystore | pbcopy
+```
+
+Then paste that copied value into the `ANDROID_KEYSTORE_BASE64` GitHub secret.
+
 ## Planned Improvements
 
 - screenshots / demo GIF
 - release builds and GitHub Releases
 - backup / import of widget settings
-

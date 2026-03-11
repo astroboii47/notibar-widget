@@ -2,8 +2,10 @@
 .gradle/
 .idea/
 local.properties
+keystore.properties
+*.jks
+*.keystore
 build/
 app/build/
 captures/
 *.iml
-
