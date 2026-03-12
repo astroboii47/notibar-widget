@@ -2,6 +2,11 @@
 
 An Android home screen widget that shows a compact row of app icons with notification counts, sorted by the most recent notification.
 
+## Download
+
+- [Latest release page](https://github.com/astroboii47/notibar-widget/releases/latest)
+- [Download Notibar v1.0 APK](https://github.com/astroboii47/notibar-widget/releases/download/v1.0/Notibar-v1.0-release.apk)
+
 ## Support
 
 If you find the project useful and want to support development, you can buy me a coffee here:
